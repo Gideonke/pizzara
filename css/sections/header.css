@@ -1,0 +1,39 @@
+header-container{
+    display:flex;
+    justify-content: space-around;
+  
+}
+.nav-middle ul li{
+display:inline-block;
+}
+.header-list{
+    list-style-type: none;
+}
+.container{
+    width:100%;
+    margin:0 auto;
+}
+.header-container{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-middle ul li{
+display:inline-block;
+padding: 0 2em;
+font-size: 17px;
+}
+.header-list{
+    list-style-type: none;
+}
+.header-part{
+    width: 30%;
+    margin:2em 0;
+}
+.nav-right img{
+    margin-left:9em;
+}
+.header-list1{
+    background-color:#EEA539 ;
+    padding: 50px 20px;
+}
+
