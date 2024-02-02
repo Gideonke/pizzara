@@ -1,0 +1,31 @@
+
+.maincontent__heading {
+    text-align: center;
+}
+.maincontent__heading h3{
+    font-size: 2rem;
+    padding-top:10rem ;
+}
+.maincontent__heading h1{
+    font-size: 4rem;
+    padding:5rem 0;
+}
+.maincontent__list ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.2rem;
+    list-style-type: none;
+}
+.maincontent__list ul li:hover{
+    color:#eea539;
+    cursor: pointer;
+    border-bottom: 8px  solid #eea539;
+}
+.maincontent__images{
+    display:flex;
+    justify-content: space-around;
+}
+.maincontent__line{
+    padding:2rem;
+    border-bottom: 3px solid gray;
+}

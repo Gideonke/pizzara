@@ -1,13 +1,21 @@
 @import url("sections/header.css");
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-font-family: 'Kanit', sans-serif;
+@import url("sections/hero.css");
+@import url("sections/main.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
 }
-.container{
-    width:90%;
-    margin:0 auto;
-    height: 100vh;
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.hero__container{
+  width: 90%;
+  margin: 0 auto;
+}
+.maincontent{
+  width: 90%;
+  margin: 0 auto;
+}
