@@ -1,6 +1,7 @@
 @import url("sections/header.css");
 @import url("sections/hero.css");
 @import url("sections/main.css");
+@import url("sections/section.css");
 * {
   margin: 0;
   padding: 0;
@@ -18,4 +19,9 @@
 .maincontent{
   width: 90%;
   margin: 0 auto;
+}
+.section{
+  width:90%;
+  margin: 0 auto;
+
 }

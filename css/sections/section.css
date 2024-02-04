@@ -1,0 +1,22 @@
+.section__container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8rem;
+}
+.section__container__delivery ul li img {
+  background-color: black;
+  border-radius: 50px;
+  text-align: center;
+}
+.section__container__delivery ul li {
+  list-style-type: none;
+  padding: 1.6rem 0;
+  font-size: 1.8rem;
+}
+.section__container__delivery p {
+  font-size: 1.6rem;
+}
+.section__container__delivery h1 {
+  font-size: 4rem;
+  margin: 3rem 0;
+}

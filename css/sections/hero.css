@@ -9,10 +9,12 @@
 .hero__nav__left img {
   background-color: black;
 }
-.hero__nav__left__icons {
+.hero__nav__left__icons  {
   display: flex;
   justify-content: space-between;
-  margin: 2rem;
+  row-gap: 4rem;
+  padding-top: 5rem;
+  text-align: center;
 }
   .hero__nav__left__icons h2{
   text-align: center;
@@ -45,9 +47,11 @@
 }
 .hero__nav__left button {
   background-color: black;
-  padding: 1.6rem 3rem; 
+  padding: 1.8rem 3rem; 
   color: white;
   font-size: 1.4rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .orange {
   color: #eea539;
