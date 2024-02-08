@@ -1,0 +1,58 @@
+.footer {
+  background-color: black;
+  padding-top: 5rem;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__container__socialmedia-logo{
+  padding-bottom: 3rem;
+}
+.footer__container__socialmedia__images{
+  display: flex;
+  justify-content: space-around;
+}
+.footer__container h2 {
+  color: white;
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+}
+.footer__container__quicklinks ul li{
+  padding: 1rem 0;
+  list-style-type: none;
+}
+.footer__container__quicklinks ul a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  padding-top: 3rem;
+  font-size: 1.4rem;
+
+}
+.footer__container__quicklinks ul li:hover{
+background-color: #eea539;
+  cursor: pointer;
+
+}
+.footer__container__subscribe2 {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.footer__container__subscribe2 input{
+  padding: 2rem 8rem;
+  font-size: 1.4rem;
+  border: none;
+  border-bottom-left-radius: 10PX;
+  border-top-left-radius: 10px;
+}
+.footer__container__subscribe button {
+  padding: 2rem 4rem;
+  background-color: #eea539;
+  font-size: 1.5rem;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+}

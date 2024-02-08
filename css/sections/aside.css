@@ -1,0 +1,39 @@
+.asidecontainer{
+    padding: 10rem;
+}
+.asidecontainer__description{
+text-align: center;
+}
+.asidecontainer__description h1{
+    font-size: 4rem;
+    padding: 4rem 0;
+}
+.asidecontainer__description p{
+    font-size:2rem; 
+}
+.asidecontainer__contact{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width:100%;
+}
+.asidecontainer__contact h2{
+    font-size: 2rem;
+}
+.asidecontainer__contact p{
+    font-size: 2rem;
+    color: grey;
+}
+.asidecontainer__contact__item2{
+    display: flex;
+
+}
+.asidecontainer__contact__item2 i{
+    padding-left: 2rem;
+    align-self: center;
+}
+.asidecontainer__contact1{
+    background-color: #f4f7fb;
+    width: 30%;
+    
+}

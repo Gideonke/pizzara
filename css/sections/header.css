@@ -23,8 +23,6 @@
   color: white;
   cursor: pointer;
 }
-@media screen and (max-width: 600px) {
-  .header__nav__center{
-    display:none;
-  }
+.nav__right__menu{
+  display: none;
 }

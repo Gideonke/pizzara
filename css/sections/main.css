@@ -1,74 +1,72 @@
-
 .maincontent__heading {
-    text-align: center;
+  text-align: center;
 }
-.maincontent__heading h3{
-    font-size: 2rem;
-    padding-top:10rem ;
+.maincontent__heading h3 {
+  font-size: 2rem;
+  padding-top: 10rem;
 }
-.maincontent__heading h1{
-    font-size: 4rem;
-    padding:5rem 0;
+.maincontent__heading h1 {
+  font-size: 4rem;
+  padding: 5rem 0;
 }
-.maincontent__list ul{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 2.2rem;
-    list-style-type: none;
+.maincontent__list {
+  border-bottom: 3px solid gray;
 }
-.maincontent__list ul li:hover{
-    color:#eea539;
-    cursor: pointer;
-    border-bottom: 8px  solid #eea539;
+.maincontent__list ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2.2rem;
+  list-style-type: none;
 }
-.maincontent__images{
-    display:flex;
-    justify-content: space-around;
-margin-top: 6rem;
-text-align: center;
+.maincontent__list ul li {
+  padding-bottom: 1em;
 }
-.maincontent__line{
-    padding:2rem;
-    border-bottom: 3px solid gray;
-} 
-.maincontent__images__item1{
-    background-color: #f4f7fb;
+.maincontent__list ul li:hover {
+  color: #eea539;
+  cursor: pointer;
+  border-bottom: 8px solid #eea539;
+  padding-bottom: 0.7em;
 }
-.maincontent__images__item2{
-    background-color: #f4f7fb;
-    row-gap: 3rem;
+.maincontent__images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6rem;
+  text-align: center;
 }
-.maincontent__images__item3{
-    background-color: #f4f7fb;
+
+.maincontent__image {
+  background-color: #f4f7fb;
+  text-align: center;
+width: 30%;
 }
-.maincontent__images button{
-    padding: 1rem 5rem;
-    background-color: black;
-    color:white;
-    font-size: 1.8rem;
-    border: none;
-    cursor: pointer;
+.maincontent__image button {
+  padding: 1rem 5rem;
+  background-color: black;
+  color: white;
+  font-size: 1.8rem;
+  border: none;
+  cursor: pointer;
 }
-.maincontent__button{
-    display: flex;
-    justify-content: center;
-    padding-right: 6rem;
-    padding-top: 5rem;
+.maincontent__button {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
 }
-.maincontent__button button{
-    padding:1rem 5rem;
-    background-color: #eea539;
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    border-radius: 10px;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
+.maincontent__button button {
+  padding: 1rem 5rem;
+  background-color: #eea539;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  
 }
-.maincontent__images h2{
-    font-size: 1.8rem;
+.maincontent__images h2 {
+  font-size: 1.8rem;
 }
-.gray{
-    color: grey;
+.gray {
+  color: grey;
 }

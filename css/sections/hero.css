@@ -1,75 +1,87 @@
-.hero__nav__container {
+.hero__container {
   display: flex;
-  justify-content: space-between;
   margin-top: 6rem;
 }
-.hero__nav__left h1 {
+.hero__left{
+  width: 50%;
+}
+.hero__left__container{
+  width: 90%;
+}
+.hero__left h1 {
   font-size: 4rem;
 }
-.hero__nav__left img {
-  background-color: black;
-}
-.hero__nav__left__icons  {
-  display: flex;
-  justify-content: space-between;
-  row-gap: 4rem;
-  padding-top: 5rem;
-  text-align: center;
-}
-  .hero__nav__left__icons h2{
-  text-align: center;
-}
-.hero__nav__left__icons__item1 {
-  padding: 3rem 4rem;
-  background-color: #f4f7fb;
-}
-
-.hero__nav__left__icons__item2 {
-  padding: 3rem 4rem;
-  background-color: #f4f7fb;
-}
 
 
-
-.hero__nav__left__icons__item3 {
-  background-color: #f4f7fb;
-  padding: 3rem 4rem;
-}
-.hero__nav__left p {
+.hero__left h1 + p {
   font-size: 1.25rem;
 }
-.hero__nav__left__form input {
+.hero__left__form {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin: 3em 0;
+  box-shadow: 0 0 5px lightgray;
+  padding-left: 1em;
+  border-radius: 7px;
+}
+.hero__left__form input {
   font-size: 1.4rem;
   border: none;
   outline: none;
-  padding: 1.4rem 8rem;
-  
+  padding: 1.8rem 0;
+  width: 75%;
 }
-.hero__nav__left button {
+.hero__left__form form{
+  background-color: #eea539;
+  display: flex;
+  width: 100%;
+}
+.hero__left__form__button{
+  width: 25%;
   background-color: black;
-  padding: 1.8rem 3rem; 
-  color: white;
-  font-size: 1.4rem;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-.orange {
-  color: #eea539;
-}
-.hero__nav__right {
-  justify-content: center;
-}
-.hero__nav__right__icons {
-  justify-content: space-around;
-}
-.hero__nav__left__form {
   display: flex;
   align-items: center;
-
+  justify-content: center;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
-.hero__nav__left__form__input{
-  /* border: 2px solid black; */
-  /* padding:1rem 1rem; */
+.hero__left__form__button button{
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+}
+.hero__left__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__left__card{
   background-color: #f4f7fb;
-  margin-top: 3rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0;
+}
+.hero__left__card--img{
+  background-color: black;
+  width:80px;
+  height: 80px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.hero__left__card p{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.hero__right{
+
+  width: 50%;
+  margin-left: 15rem;
 }
