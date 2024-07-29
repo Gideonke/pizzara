@@ -15,6 +15,10 @@
   list-style-type: none;
   padding: 0.6rem 1.5rem;
 }
+.header__nav__center ul a {
+  text-decoration: none;
+  color: black;
+}
 .header__nav__right img {
   padding: 1em;
 }
@@ -23,6 +27,41 @@
   color: white;
   cursor: pointer;
 }
-.nav__right__menu{
+
+.header__nav__right {
+  display: flex;
+  position: relative;
+}
+
+.cart {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 35%;
+  font-size: 1rem;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__right__menu {
   display: none;
+}
+.header {
+  position: relative;
+}
+.cart-container {
+  /* width: 600px; */
+  min-height: 40vh;
+  background-color: aqua;
+  position: absolute;
+  right: 0;
+  border-radius: 20px;
+  top: 10%;
+}
+.show__cart {
+  width: 500px;
 }

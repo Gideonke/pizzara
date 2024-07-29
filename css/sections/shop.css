@@ -1,0 +1,135 @@
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#f4f7fb;
+    align-items: center;
+    width: 100%;
+}
+.header__nav__center ul {
+list-style-type: none;
+display: flex; 
+justify-content: space-around;
+}
+.header__nav__center ul li{
+    padding: 3rem;
+}
+.header__nav__center ul li:hover{
+  background-color: #eea539;
+  color: white;
+  cursor: pointer;
+}
+.header__nav__center ul a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  
+}
+.hero__list{
+        border-bottom: 3px solid gray;
+      }
+      .hero__list ul {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 2.2rem;
+        list-style-type: none;
+        padding-top: 4rem;
+      }
+      .hero__list ul li {
+        padding-bottom: 1em;
+        
+      }
+      .hero__list ul li:hover {
+        color: #eea539;
+        cursor: pointer;
+        border-bottom: 8px solid #eea539;
+        padding-bottom: 0.7em;
+        padding: 0 1rem;
+      }
+      .hero__images{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 3rem 0;
+        padding-top: 18rem;
+
+      }
+      .hero__images__img{
+        text-align: center;
+        background-color: #f4f7fb;
+      }
+      .hero__images__img img{
+        margin-top: -40%;
+      
+      }
+      .hero__images__img button{
+        padding: 1rem 4rem;
+        background-color: black;
+        color: white;
+        font-size: 1.5em;
+        border: none;
+      }
+
+
+      .footer {
+        background-color: black;
+        padding-top: 10rem;
+      }
+      .footer__container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .footer__container__socialmedia-logo{
+        padding-bottom: 3rem;
+      }
+      .footer__container__socialmedia__images{
+        display: flex;
+        justify-content: space-around;
+      }
+      .footer__container h2 {
+        color: white;
+        font-size: 2.5rem;
+        padding-bottom: 3rem;
+      }
+      .footer__container__quicklinks ul li{
+        padding: 1rem 0;
+        list-style-type: none;
+      }
+      .footer__container__quicklinks ul a {
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+        padding-top: 3rem;
+        font-size: 1.4rem;
+      
+      }
+      .footer__container__quicklinks ul li:hover{
+      background-color: #eea539;
+        cursor: pointer;
+      
+      }
+      .footer__container__subscribe2 {
+        display: flex;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 10px;
+      }
+      .footer__container__subscribe2 input{
+        padding: 2rem 8rem;
+        font-size: 1.4rem;
+        border: none;
+        border-bottom-left-radius: 10PX;
+        border-top-left-radius: 10px;
+      }
+      .footer__container__subscribe button {
+        padding: 2rem 4rem;
+        background-color: #eea539;
+        font-size: 1.5rem;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border: none;
+      }
+      

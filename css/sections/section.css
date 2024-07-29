@@ -19,14 +19,23 @@
   padding-bottom: 1em;
 
 }
+.section__container__delivery__quality1 h3{
+  font-weight: bold;
+}
+.section__container__delivery__quality1 p{
+  color: grey;
+  font-size: 1.2rem;
+}
 .section__container__delivery__quality{
   background-color: #f4f7fb;
+  height: 70vh;
 }
 .section__container__delivery__qualities{
   display: flex;
-  margin-top: 3rem;
+  margin-top: 6rem;
 align-items: center;
   width: 90%;
+  background-color: white;
   
 }
 .main__container__image{

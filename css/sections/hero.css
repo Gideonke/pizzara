@@ -85,3 +85,15 @@
   width: 50%;
   margin-left: 15rem;
 }
+@media screen and (max-width: 892px) {
+  .hero{
+    overflow: none;
+    display: block;
+  }
+  .hero__right{
+    display: none;
+  }
+  .hero__left__form{
+    width: 50%;
+  }
+}
